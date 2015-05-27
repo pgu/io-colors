@@ -1,3 +1,43 @@
+/*$alt-cyan-blue: #6fc3df;*/
+/*$alt-light-blue: #e6ffff;*/
+/*$alt-dark-blue: #0c141f;*/
+/*$alt-dark-blue-lighter: #132031;*/
+/*$alt-yellow: #ffe64d;*/
+/*$alt-orange: #df740c;*/
+
 .press {
-    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #0c141f;
+
+    z-index: 1;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    box-shadow: #6fc3df 0 0 6px,
+    #6fc3df 0 0 8px,
+    #6fc3df 0 0 10px,
+    inset #6fc3df 0 0 6px,
+    inset #6fc3df 0 0 8px,
+    inset #6fc3df 0 0 10px;
+
+    cursor: -webkit-grab;
+}
+
+.press:hover {
+    box-shadow: #6fc3df 0 0 6px,
+    #6fc3df 0 0 8px,
+    #6fc3df 0 0 10px,
+    #6fc3df 0 0 12px,
+    inset #6fc3df 0 0 6px,
+    inset #6fc3df 0 0 8px,
+    inset #6fc3df 0 0 10px,
+    inset #6fc3df 0 0 12px;
+}
+
+.press:active {
+    cursor: -webkit-grabbing;
 }
